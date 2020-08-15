@@ -1,7 +1,7 @@
 body{
     font-size: 16px;
     color: #fff;
-    background-color: #1d1d1d;
+    background-color: #ffffff;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -12,6 +12,12 @@ body{
     box-shadow: 1px 2px 12px rgb(212, 212, 212) ;
 }
 
+.heading{
+    font-size: 44px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: rgb(34, 34, 34);
+}
 
 .navbar-brand h1{
     
@@ -41,7 +47,23 @@ body{
     vertical-align: middle;
     color: gray;
 }
- 
+
+.card1{
+    padding: 64px 64px 64px 64px;
+    border: 2px solid rgb(189, 189, 189);
+    background-color: rgb(247, 247, 247);
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    border-radius: 8px;
+}
+
+.card1 > h3{
+    font-size: 36px;
+    padding: 0px 0px 16px 0px;
+}
+
+.col-lg-12, .col-md-12, .col-sm-12{
+}
 /*************** LARGE devices only************/
 
 @media (min-width: 992px) {
