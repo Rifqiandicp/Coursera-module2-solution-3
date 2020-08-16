@@ -29,12 +29,14 @@ body{
 }
 
 .navbar{
+    background-color: rgb(22, 22, 22);
     box-shadow: 2px 4px 24px rgb(233, 233, 233);
 }
 
-
-.navbar-brand a:hover, .navbar-brand a:focus{
-    text-decoration: none;
+.navbar-brand{
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .navbar-brand p{
@@ -62,22 +64,36 @@ body{
     padding: 0px 0px 16px 0px;
 }
 
-.col-lg-12, .col-md-12, .col-sm-12{
-}
-/*************** LARGE devices only************/
-
-@media (min-width: 992px) {
-
+.navbar-expand{
+    background-color: red;
 }
 
 
-/*************** MEDI`UM devices only************/
+/*************** MEDIUM devices only************/
 
-@media (min-width: 768px) and (max-width: 991px) {
-
+@media (min-width: 768px) {
+    .nav-link{
+        display: none;
+    }
+    .navbar-toggler{
+        display: none;
+    }
 }
 
-/*************** lSMALL devices only************/
 
-@media (max-width: 767px) {
+/*************** SMALL devices only************/
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .nav-link {
+        display: none;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+}
+
+/*************** EXTRA SMALL devices only************/
+
+@media (max-width: 575px) {
+    
 }
