@@ -40,6 +40,7 @@ body{
 .navbar-expand{
     background-color: red;
 }
+
 .col-lg-12, .col-md-12, .col-sm-12{
     padding: 0px 64px 64px 64px;
 }
@@ -57,9 +58,7 @@ body{
 /*************** SMALL devices only************/
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .nav-link {
-        display: none;
-    }
+
 }
 
 /*************** EXTRA SMALL devices only************/
