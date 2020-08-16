@@ -51,19 +51,13 @@ body{
     .nav-link{
         display: none;
     }
-    .navbar-toggler{
-        display: none;
-    }
 }
 
 
 /*************** SMALL devices only************/
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
     .nav-link {
-        display: none;
-    }
-    .navbar-toggler{
         display: none;
     }
 }
