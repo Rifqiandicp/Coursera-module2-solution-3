@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+}
+
+#header-nav{
+    background-color: #ffffff;
+    border-radius: 0;
+    border: 0;
+    box-shadow: 1px 2px 12px rgb(212, 212, 212) ;
+}
+
+.heading{
+    font-size: 44px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: rgb(34, 34, 34);
+}
+
+.navbar-brand h1{
+    
+    color: rgb(53, 53, 53);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar{
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px 4px 24px rgb(233, 233, 233);
+}
+
+.navbar-brand{
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.navbar-brand p{
+    font-size: .7em;
+    color: gray;
+    margin-top: 8px;
+}
+
+.navbar-brand p span{
+    vertical-align: middle;
+    color: gray;
+}
+
+.card1{
+    padding: 64px 64px 64px 64px;
+    border: 2px solid rgb(189, 189, 189);
+    background-color: rgb(247, 247, 247);
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    border-radius: 8px;
+}
+
+.card1 > h3{
+    font-size: 36px;
+    padding: 0px 0px 16px 0px;
+}
+
+.navbar-expand{
+    background-color: red;
+}
+
+
+/*************** MEDIUM devices only************/
+
+@media (min-width: 768px) {
+    .nav-link{
+        display: none;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+}
+
+
+/*************** SMALL devices only************/
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .nav-link {
+        display: none;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+}
+
+/*************** EXTRA SMALL devices only************/
+
+@media (max-width: 575px) {
+    
+}
